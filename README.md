@@ -20,46 +20,6 @@
 - Demonstrates directory traversal attacks
 - Shows unsafe file path handling
 
-### 5. Insecure Deserialization (`insecure_deserialization.py`)
-- Demonstrates pickle vulnerability in Python
-- Shows risks of deserializing untrusted data
-
-### 6. XML External Entity (XXE) (`xxe_attack.py`)
-- Demonstrates XXE injection vulnerabilities
-- Shows unsafe XML parsing
-
-### 7. Cross-Site Request Forgery (CSRF) (`csrf_example.html`)
-- Demonstrates CSRF attack vectors
-- Shows missing CSRF token validation
-
-### 8. Hardcoded Credentials (`hardcoded_secrets.py`)
-- Demonstrates credential exposure in source code
-- Shows poor secret management practices
-
-### 9. Weak Cryptography (`weak_crypto.py`)
-- Demonstrates weak encryption and hashing
-- Shows outdated cryptographic practices
-
-### 10. Buffer Overflow (`buffer_overflow.c`)
-- Demonstrates classic buffer overflow vulnerability
-- Shows unsafe memory operations
-
-### 11. Race Condition (`race_condition.py`)
-- Demonstrates TOCTOU (Time-of-check to Time-of-use)
-- Shows unsafe concurrent operations
-
-### 12. Server-Side Request Forgery (SSRF) (`ssrf_vulnerability.py`)
-- Demonstrates SSRF attacks
-- Shows unsafe URL fetching
-
-### 13. LDAP Injection (`ldap_injection.py`)
-- Demonstrates LDAP query manipulation
-- Shows unsafe LDAP filter construction
-
-### 14. Insecure Direct Object Reference (`idor_example.py`)
-- Demonstrates IDOR vulnerabilities
-- Shows missing authorization checks
-
 ## How to Use
 
 Each file contains:
